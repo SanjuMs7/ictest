@@ -5,6 +5,11 @@
       padding-top: 1.5rem;
       padding-inline: 5rem;
       color:white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 0;
 }
 ul{
       display: flex;
@@ -21,6 +26,7 @@ ul{
       align-items: center;
       font-size: 2rem;
       gap: 1rem;
+      font-weight: 600;
 }
 .navbar .logo-div img{
       width: 2rem;
@@ -35,7 +41,7 @@ li{
 .hover-circle{
       position: absolute;
       padding: .1rem;
-      background-color:rgb(48, 123, 198);
+      background-color: var(--light-blue);
       opacity: 0;
       border-radius:3rem;
       transition: all .3s ease;
