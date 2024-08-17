@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './mainPage.css'
 import ieeeINNER from '../assets/ieee-inner-shell.png'
 import ieeeOUTER from '../assets/ieee-outer-shell.png'
