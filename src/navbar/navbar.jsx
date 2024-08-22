@@ -9,11 +9,11 @@ export default function Navbar() {
                   <span>ICTEST</span>
             </div>
             <ul>
-                  <li><div className='hover-circle'></div>home</li>
+                  <li><div className='hover-circle'></div><a href={'/'}>home</a></li>
                   <li><div className='hover-circle'></div>conference</li>
                   <li><div className='hover-circle'></div>team</li>
                   <li><div className='hover-circle'></div>publication</li>
-                  <li><div className='hover-circle'></div>schedules</li>
+                  <li><div className='hover-circle'></div><a href={'/schedules'}>schedules</a></li>
             </ul>
             <button className='login-btn-li'><div className='hover-circle-loginBtn'></div>Login</button>
     </div>
